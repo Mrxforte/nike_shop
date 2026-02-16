@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "345113232057",
+    "project_id": "my-insta-bb04b",
+    "storage_bucket": "my-insta-bb04b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345113232057:android:2e900b2253184c2c645168",
+        "android_client_info": {
+          "package_name": "com.example.my_insta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsDKi9SXIisnp-0mRbLuQQLBHlQHNnZ1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345113232057:android:51c2ce3f803f1e01645168",
+        "android_client_info": {
+          "package_name": "com.example.nike_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsDKi9SXIisnp-0mRbLuQQLBHlQHNnZ1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
