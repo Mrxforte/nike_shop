@@ -1,9 +1,15 @@
-import 'package:flutter/material.dart';
-  import 'package:flutter_screenutil/flutter_screenutil.dart';
-  import 'core/theme/app_theme.dart';
-  import 'presentation/routes/app_router.dart';
 
-void main() {
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'core/theme/app_theme.dart';
+import 'presentation/routes/app_router.dart';
+import 'core/services/firebase_service.dart';
+
+import 'core/services/di.dart';
+
+void main() async {
+  await FirebaseService.initialize();
+  setupLocator();
   runApp(const MyApp());
 }
 
